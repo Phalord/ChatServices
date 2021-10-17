@@ -21,7 +21,7 @@ namespace ChatServiceLibrary
         string JoinChatRoom();
 
         [OperationContract(IsOneWay = false)]
-        string CreateChatRoom(string roomName, string roomSize);
+        string CreateChatRoom(string roomName, int roomSize);
 
         [OperationContract(IsOneWay = false)]
         ObservableCollection<ChatParticipant> GetChatParticipants(string _roomCode);
