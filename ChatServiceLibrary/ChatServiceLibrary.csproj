@@ -50,9 +50,6 @@
     <Compile Include="Services\ChatService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ChatModel\ChatModel.csproj">
       <Project>{43c12433-20b6-487b-bdfc-f18e1c24e0b7}</Project>
       <Name>ChatModel</Name>

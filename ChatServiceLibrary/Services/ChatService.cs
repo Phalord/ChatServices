@@ -68,12 +68,7 @@ namespace ChatServiceLibrary
             return _roomCode;
         }
 
-        public ObservableCollection<ChatParticipant> GetChatParticipants(string _roomCode)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ObservableCollection<ChatRoom> GetChatRooms()
+        public ObservableCollection<string> GetChatParticipants(string _roomCode)
         {
             throw new NotImplementedException();
         }

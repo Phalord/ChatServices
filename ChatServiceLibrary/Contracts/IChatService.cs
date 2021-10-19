@@ -24,9 +24,6 @@ namespace ChatServiceLibrary
         string CreateChatRoom(string roomName, int roomSize);
 
         [OperationContract(IsOneWay = false)]
-        ObservableCollection<ChatParticipant> GetChatParticipants(string _roomCode);
-
-        [OperationContract(IsOneWay = false)]
-        ObservableCollection<ChatRoom> GetChatRooms();
+        ObservableCollection<string> GetChatParticipants(string _roomCode);
     }
 }
